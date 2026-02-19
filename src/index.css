@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Гарантирует высоту на весь экран */
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
